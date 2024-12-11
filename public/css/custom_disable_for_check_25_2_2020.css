@@ -1,0 +1,394 @@
+  .bootstrap-autocomplete{ border: 1px solid lightgray; position: absolute; z-index: 200; background-color: #fff; display: none; }
+            .show{ display: block; }
+            .dropdown-item { display: block; width: 100%;padding: 3px 15px;clear: both;font-weight: 400;color: #292b2c;text-align: inherit;white-space: nowrap;background: 0 0;border-bottom: 0.5px solid lightgrey;  }
+            .dropdown-item:last-child { border-bottom: 0px !important;  }
+            .dropdown-item:focus, .dropdown-item:hover { background-color: #afd13f !important; color: #fff;    }
+            .ajax-loader-field { position: absolute !important; right: 16px; top: 2px; display: none; width: 35px;}
+.highlight { background-color: yellow;font-weight: bold; }
+div.action-links{ text-align: center !important; }
+            div#practice-reg-step.wizard > .steps > ul > li{ width:33% !important; }
+
+            .tab-content{     padding: 10px 10px !important; }
+            .practice_form select.form-control:not([size]):not([multiple]){ height: unset !important; }
+            .practice_form .form-control { font-size: 0.8rem; padding: .2rem .2rem !important; }
+            .practice_form .form-group { margin-bottom: 0.3rem !important }
+            
+            
+            
+            .practice_report {background-color: #fff;padding: 0px 10px;}
+            .bord_bot {border-bottom: 1px solid #dedede;padding: 5px 0;}
+            .bor_bot_last {padding: 5px 0;}
+            .rig_lab { padding: 5px 0; }
+            .bord_bot label { font-size: 15.96px; color: #3b7ec4;}
+            .dataTables_wrapper .dataTables_paginate .paginate_button{ padding: 0.3em .8em; }
+            .dataTables_wrapper .dataTables_paginate .paginate_button:active{ background: #afd13f;  }
+            .dataTables_wrapper .dataTables_paginate .paginate_button:hover{ background: #afd13f; }
+            .dashboard-tab tr:nth-of-type(odd){ background: none; }
+            .dashboard-tab td{ border:none !important; border-bottom:solid 1px #ccc !important; }
+            .dashboard-tab tr{ font-weight: bold; font-size: 18px; }
+            
+            
+            
+.green_heading {
+    padding: 4px 10px;
+    background-color: #9bc90d;
+  /*  margin-bottom: 10px; */
+}
+.green_heading h4 {
+    font-size: 17.42px;
+    color: #fff;
+    font-weight: 600;
+    margin-bottom: .2rem;
+}
+.green_heading_left {
+    float: right;
+    text-align: right;
+}
+.modal_edit button {
+    background-color: inherit;
+    border: 0;
+    color: #fff;
+    font-size: 14px;
+    font-weight: 600;
+    cursor: pointer;
+    padding: 0;
+    margin: 0;
+}
+.modal_edit button:hover{ background: none;border: none;border-radius: none; }
+.custom_add_inputs {
+    width: 100%;
+    border: 1px solid #3b7ec4;
+    border-radius: 5px;
+    height: 29px;
+    height: 2.2em;
+    line-height: 2.2em;
+    margin-bottom: 8px;
+    font-size: 14px;
+    padding-left: 5px;
+    font-weight: bolder;
+    color: #3b7ec4;
+}
+.new_pad_edit {
+    padding: 10px 22px;
+}
+.practice h5 {
+    font-size: 20px;
+    font-weight: 600;
+    color: #333333;
+    margin-bottom: 15px;
+    display: inline-block;
+}
+.practice label {
+    font-size: 14.6px;
+    color: #666666;
+    margin-bottom: 0;
+}
+.check_color {
+    color: #3b7ec4;
+}
+.pad_left_none {
+    padding-left: 0;
+}
+.patient_profile_text {
+    padding: 35px 0 0 0;
+}
+.blue_butn_profile button {
+    width: 100%;
+    text-align: left;
+    background-color: #3b7ec4;
+    color: #fff;
+    font-size: 14.66px;
+    border: none;
+    border-radius: 4px;
+    padding: 10px 10px;
+    margin: 3px 0;
+    cursor: pointer;
+}
+.blue_butn_profile i {
+    text-align: right;
+    z-index: 9999;
+    color: #fff;
+}
+.practice i {
+    display: inline-block;
+    float: right;
+    color: #3b7ec4;
+    font-size: 20px;
+   /* padding-right: 20px; */
+}
+.black_custom {
+    background-color: #575757;
+    color: #fff;
+    font-size: 14.66px;
+    text-align: center;
+    width: 100%;
+    padding: 2px;
+    margin-bottom: 0;
+    font-weight: normal;
+    text-transform: uppercase;
+}
+.profile_lable_input .form-control {
+    border: 1px solid #0066ff;
+    padding: 3px 4px;
+    font-size: 14.66px;
+    height: 24px !important;
+    outline: 0;
+    background-color: #fff !important;
+    border-radius: 0;
+    text-align: left;
+    margin-bottom: 12px;
+}
+.profile_lable_input .select2-container--default .select2-selection--single {
+    border: 1px solid #0066ff;
+    padding: 3px 4px;
+    font-size: 14.66px;
+   /* height: 24px !important; */
+    outline: 0;
+    background-color: #fff !important;
+    border-radius: 0;
+    text-align: left;
+    margin-bottom: 12px;
+}
+.black_custom_sec {
+    background-color: #575757;
+    color: #fff;
+    font-size: 11.66px;
+    text-align: center;
+    width: 100%;
+    padding: 2px;
+    margin-bottom: 0;
+    font-weight: normal;
+    text-transform: uppercase;
+    height: 25px;
+}
+.blue_custom {
+    background-color: #3b7ec4;
+    color: #fff;
+    font-size: 14.66px;
+    text-align: center;
+    width: 100%;
+    padding: 2px;
+    margin-bottom: 0;
+    font-weight: normal;
+    text-transform: uppercase;
+}
+.profile_lable_input .new_tables tr th {
+    background: #448ccb;
+    font-size: 11px;
+    padding: 3px 2px;
+    text-align: left;
+    color: #fff;
+    font-weight: normal;
+}
+.profile_lable_input .new_tables tr td {
+    padding-top: 0px;
+    text-align: left;
+}
+.profile_lable_input .dt_tables tr td {
+    font-weight: 600;
+    color: #000;
+    font-size: 12px;
+    font-family: 'Open Sans', sans-serif;
+    padding: 5px 2px 5px 0;
+    text-transform: uppercase;
+}
+.red_custom_bottom {
+    background-color: #fff;
+    border: 2px solid #ec1717;
+    color: #ec1717;
+    text-align: center;
+    font-size: 11.66px;
+    font-weight: 600;
+    text-transform: uppercase;
+    margin-bottom: -1px;
+    height: 50px;
+    padding: 2px 7px;
+    display: block;
+}
+.red_bottom {
+    border: 2px solid #ec1717;
+    padding: 3px 4px;
+    font-size: 14.66px;
+   /* height: 50px; */
+    outline: 0;
+    background-color: #fff !important;
+    border-radius: 0;
+    text-align: left;
+   /* margin-bottom: 12px; */
+    margin-top: 0;
+    width: 100%;
+    font-size: 15px;
+    border-top: 0;
+}
+
+.blue_custom_bottom {
+    background-color: #fff;
+    border: 2px solid #3b7ec4;
+    color: #3b7ec4;
+    text-align: center;
+    font-size: 11.66px;
+    font-weight: 600;
+    text-transform: uppercase;
+    margin-bottom: -1px;
+    height: 50px;
+    padding: 2px 3px;
+    display: block;
+}
+.blue_bottom {
+    border: 2px solid #3b7ec4;
+    padding: 3px 4px;
+    font-size: 14.66px;
+/*    height: 50px;*/
+    outline: 0;
+    background-color: #fff !important;
+    border-radius: 0;
+    text-align: left;
+/*    margin-bottom: 12px;*/
+    margin-top: 0;
+    width: 100%;
+    font-size: 15px;
+    border-top: 0;
+    border-top: 0;
+}
+.comp_heading_head {
+   /* padding-top: 15px; */ 
+    text-align: left;
+}
+.comp_heading_head h2 {
+    font-size: 18px;
+    font-weight: 600;
+    color: #000;
+    margin-bottom: 0px;
+}
+.blue_black_custom_bottom {
+    background-color: #fff;
+    border: 2px solid #3b7ec4;
+    color: #000;
+    text-align: center;
+    font-size: 11.66px;
+    font-weight: 600;
+    text-transform: uppercase;
+    margin-bottom: -1px;
+    height: 50px;
+    padding: 2px 3px;
+    display: block;
+}
+.sub_red_btn {
+    text-align: left;
+}
+button:active {
+    border: solid 1px #3b82cd !important;
+    color: #3b82cd !important;
+    background-color: transparent !important;
+}
+button:hover {
+    border: solid 1px #3b82cd !important;
+    color: #3b82cd;
+    background-color: transparent;
+}
+.abov_sub_red_btn button {
+    background-color: #fff;
+    color: #ec1717;
+    border: 2px solid #999999;
+    border-radius: 5px;
+    padding: 3px 34px;
+    font-size: 14.64px;
+    text-align: center;
+    cursor: pointer;
+    font-weight: 600;
+    margin: 8px 0;
+    text-transform: uppercase;
+    text-align: left;
+}
+.abov_sub_lower_red_btn button {
+    background-color: #fff;
+    color: #ec1717;
+    border: 2px solid #999999;
+    border-radius: 3px;
+    padding: 15px 34px;
+    font-size: 14.64px;
+    text-align: center;
+    cursor: pointer;
+    font-weight: 600;
+    margin: 8px 0;
+    text-transform: uppercase;
+    text-align: left;
+}
+.patient_profile_text h6 {
+    font-size: 18.64px;
+    color: #84ac00;
+}
+.check_marg {
+    margin: 0 10px 0 15px;
+}
+.add_practice_right_content {
+    margin: 25px 0;
+    padding: 15px 0;
+}
+.green_tick_align {
+    text-align: center;
+}
+.green_tick_align img {
+    padding-bottom: 25px;
+    width: 12%;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.img-fluid {
+    max-width: 100%;
+    height: auto;
+}
+.green_tick_align p {
+    font-size: 14.66px;
+    color: #9bc90d;
+    font-weight:600;
+}
+.green_tick_align span {
+    font-size: 16px;
+    color: #3b7ec4;
+    font-weight:600;
+}
+.table_content_cont_add_prac {
+    background-color: #f2f2f2;
+    padding: 0 0 10px 0;
+    margin-bottom: 7px;
+    margin-top: 0px;
+}
+.profile_lable_input th{ padding-bottom: 0px;  }
+.profile_lable_input td{ padding-top: 0px;  }
+.profile_lable_input {    padding: 10px 10px; }
+.select2-container .select2-selection--single {    height: 36px !important; }
+.sub_red_btn button {
+    background-color: #ec1717;
+    color: #fff;
+    border: 0;
+    border-radius: 13px;
+    padding: 3px 35px;
+    font-size: 20.64px;
+    text-align: center;
+    cursor: pointer;
+    font-weight: 600;
+    margin: 8px 0;
+    text-transform: uppercase;
+}
+.blue_butn_profile i {
+    text-align: right;
+    z-index: 9999;
+    color: #fff;
+}
+#prescription-order-form .prescriber-name-field .select2{
+    min-width: 100%;
+}
+.order-error{
+    border: solid 1px red !important;
+}
+#prescription-order-form form label.star:after {
+    content: "*";
+    color: red;
+}
+#drug-Add-Modal .dropdown-menu.show{
+    height: 320px;
+    overflow-y: auto;
+    overflow-x: hidden;
+}

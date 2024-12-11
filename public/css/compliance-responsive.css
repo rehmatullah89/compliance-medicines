@@ -1,0 +1,14 @@
+
+
+.container { min-width: 95%; max-width: 95%; }
+
+
+@media only screen and (min-width: 1000px) {
+
+	.mr-14-100p_ { margin-right: 14px; }
+
+}
+
+@media only screen and (max-width: 1540px) {
+ .container { min-width: 100% !important; }
+}
